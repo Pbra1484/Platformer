@@ -66,8 +66,8 @@ namespace Platformer
         // Constants for controling horizontal movement
         private const float MoveAcceleration = 13000.0f;
         private const float MaxMoveSpeed = 1750.0f;
-        private const float GroundDragFactor = 0.48f;
-        private const float AirDragFactor = 0.58f;
+		private const float GroundDragFactor = 0.70f;
+        private const float AirDragFactor = 0.70f;
 
         // Constants for controlling vertical movement
         private const float MaxJumpTime = 0.35f;
